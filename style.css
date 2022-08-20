@@ -1,0 +1,40 @@
+.nav-bars
+{
+   background-color: aqua;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   z-index: 1;
+   position: fixed;
+   width: 100%;
+}
+
+.footer-container
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-item
+{
+  width: 25%;
+
+}
+
+
+.footer
+{
+  background-color: aqua;
+  padding: 10px;
+}
+
+.product-div
+{
+    width: 400px;
+    position: relative;
+    padding-top: 100px;
+}
+.product-div:hover
+{
+    border: 2px solid black;
+}
